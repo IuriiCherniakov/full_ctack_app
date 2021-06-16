@@ -9,7 +9,7 @@ const schema = new Schema({
     password: {
         type: String,
         required: true,
-        links: [{ type: Types.ObjectId, ref: 'Link' }]
+        links: [{type: Types.ObjectId, ref: 'Link'}]
     }
 })
 
